@@ -7,4 +7,6 @@ This repository is shared to provide transparency on the analytical methods, cod
 The scripts are intended to illustrate the approaches taken and how the analyses were conducted, rather than to function as ready-to-run workflows for all datasets. Adjustments to file paths, variable names, data formats and other dataset-specific settings may be required when applying the code to different datasets.
 The code is provided as a reference to support understanding, adaptation and further development of the analytical approaches.
 
+Output plots for all provinces are also included.
+
 Please contact Dr Yanna Alexia Fidai yfi@pml.ac.uk for any queries.
