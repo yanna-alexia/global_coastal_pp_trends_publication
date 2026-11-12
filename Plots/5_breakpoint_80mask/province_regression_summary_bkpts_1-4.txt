@@ -1,0 +1,668 @@
+ALSK (bkpts=1): No estimates returned.
+ALSK (bkpts=2): No estimates returned.
+ALSK (bkpts=3): No estimates returned.
+--- ALSK (best n_breakpoints = 4, R² = 0.0353) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      296
+No. Model Parameters                   10
+Degrees of Freedom                    286
+Res. Sum of Squares               35.4852
+Total Sum of Squares              36.7826
+R Squared                        0.035272
+Adjusted R Squared               0.001422
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                 2.7895         0.05       55.788      9.6e-156       2.6911       2.8879
+alpha1           8.10872e-05     0.000441      0.18374         0.854  -0.00078753    0.0009497
+beta1              -0.197931        0.249     -0.79467             -     -0.68818      0.29232
+beta2               0.429429        0.273       1.5739             -     -0.10761      0.96647
+beta3              -0.345923        0.158       -2.196             -     -0.65598    -0.035863
+beta4               0.115107        0.111       1.0333             -     -0.10416      0.33437
+breakpoint1          196.377          2.3            -             -       191.85        200.9
+breakpoint2          199.546         1.25            -             -       197.08       202.01
+breakpoint3          204.391         1.31            -             -       201.82       206.97
+breakpoint4          209.057         2.51            -             -       204.13       213.99
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2              -0.19785        0.249     -0.79435         0.428      -0.6881       0.2924
+alpha3              0.231579        0.111        2.079        0.0385     0.012333      0.45082
+alpha4             -0.114344        0.111      -1.0265         0.306     -0.33359       0.1049
+alpha5           0.000762642      0.00153      0.49843         0.619    -0.002249    0.0037743
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.20984 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [196, 200, 204, 209]
+Segment 1: slope=0.00006, stderr=0.00046, p=0.902 (not significant)
+Segment 2: slope=-0.22231, stderr=0.02002, p=0.00801 (significant)
+Segment 3: slope=0.24252, stderr=0.02088, p=0.00733 (significant)
+Segment 4: slope=-0.06410, stderr=0.01217, p=0.0133 (significant)
+Segment 5: slope=0.00081, stderr=0.00143, p=0.575 (not significant)
+
+ARAB (bkpts=3): No estimates returned.
+ARAB (bkpts=4): No estimates returned.
+--- ARAB (best n_breakpoints = 2, R² = 0.0423) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    6
+Degrees of Freedom                    294
+Res. Sum of Squares               2.79834
+Total Sum of Squares               2.9218
+R Squared                        0.042254
+Adjusted R Squared               0.022642
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                 2.9839       0.0249       119.94     1.03e-251       2.9349       3.0329
+alpha1             0.0016762     0.000727       2.3048        0.0219   0.00024487    0.0031075
+beta1            -0.00254444      0.00085      -2.9952             -   -0.0042163  -0.00087255
+beta2             0.00106913     0.000472       2.2649             -   0.00014012    0.0019981
+breakpoint1          59.3385         12.9            -             -       33.855       84.822
+breakpoint2          143.204         24.6            -             -       94.711        191.7
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -0.000868241     0.000439      -1.9777        0.0489   -0.0017323  -4.2307e-06
+alpha3           0.000200885     0.000173       1.1581         0.248  -0.00014049   0.00054226
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.321263 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [59, 143]
+Segment 1: slope=0.00176, stderr=0.00074, p=0.0203 (significant)
+Segment 2: slope=-0.00079, stderr=0.00046, p=0.0884 (not significant)
+Segment 3: slope=0.00021, stderr=0.00017, p=0.21 (not significant)
+
+AUSE (bkpts=2): No estimates returned.
+AUSE (bkpts=3): No estimates returned.
+AUSE (bkpts=4): No estimates returned.
+--- AUSE (best n_breakpoints = 1, R² = 0.0045) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    4
+Degrees of Freedom                    296
+Res. Sum of Squares               7.78505
+Total Sum of Squares              7.81989
+R Squared                        0.004455
+Adjusted R Squared              -0.009044
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.89191       0.0191       151.44     1.75e-282       2.8543       2.9295
+alpha1            0.00010296     0.000116      0.89108         0.374  -0.00012444   0.00033036
+beta1             0.00257499        0.012      0.21419             -    -0.021084     0.026234
+breakpoint1          286.611         35.4            -             -       217.03       356.19
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2            0.00267795        0.012      0.22277         0.824     -0.02098     0.026336
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.39581 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [287]
+Segment 1: slope=0.00010, stderr=0.00012, p=0.373 (not significant)
+Segment 2: slope=0.00268, stderr=0.01234, p=0.832 (not significant)
+
+AUSW (bkpts=3): No estimates returned.
+AUSW (bkpts=4): No estimates returned.
+--- AUSW (best n_breakpoints = 2, R² = 0.0673) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    6
+Degrees of Freedom                    294
+Res. Sum of Squares              0.691362
+Total Sum of Squares             0.741285
+R Squared                        0.067348
+Adjusted R Squared               0.048249
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.82082      0.00647       435.79           0.0       2.8081       2.8336
+alpha1          -8.38903e-05     5.04e-05       -1.663        0.0974  -0.00018317   1.5388e-05
+beta1             0.00163033     0.000719        2.267             -   0.00021501    0.0030457
+beta2            -0.00328293     0.000995      -3.2984             -   -0.0052418   -0.0013241
+breakpoint1          222.359         10.5            -             -       201.71       243.01
+breakpoint2          260.009         6.73            -             -       246.76       273.26
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2            0.00154644     0.000717       2.1557        0.0319   0.00013461    0.0029583
+alpha3           -0.00173649      0.00069      -2.5168        0.0124   -0.0030943  -0.00037863
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.77013 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [222, 260]
+Segment 1: slope=-0.00008, stderr=0.00005, p=0.134 (not significant)
+Segment 2: slope=0.00150, stderr=0.00067, p=0.033 (significant)
+Segment 3: slope=-0.00196, stderr=0.00065, p=0.00466 (significant)
+
+BENG (bkpts=2): No estimates returned.
+BENG (bkpts=3): No estimates returned.
+BENG (bkpts=4): No estimates returned.
+--- BENG (best n_breakpoints = 1, R² = 0.0018) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    4
+Degrees of Freedom                    296
+Res. Sum of Squares               3.86712
+Total Sum of Squares              3.87397
+R Squared                        0.001769
+Adjusted R Squared              -0.011767
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                3.00408       0.0291       103.07     5.95e-234       2.9467       3.0614
+alpha1           0.000386874     0.000852      0.45404          0.65     -0.00129    0.0020637
+beta1           -0.000432325     0.000859     -0.50347             -   -0.0021222    0.0012576
+breakpoint1          59.3493         76.1            -             -      -90.441       209.14
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -4.54514e-05     0.000106      -0.4268          0.67  -0.00025503   0.00016413
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.9272 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [59]
+Segment 1: slope=0.00019, stderr=0.00096, p=0.847 (not significant)
+Segment 2: slope=-0.00006, stderr=0.00010, p=0.58 (not significant)
+
+BRAZ (bkpts=1): No estimates returned.
+BRAZ (bkpts=2): No estimates returned.
+BRAZ (bkpts=3): No estimates returned.
+BRAZ (bkpts=4): No estimates returned.
+BRAZ: No successful regression.
+CAMR (bkpts=4): No estimates returned.
+--- CAMR (best n_breakpoints = 2, R² = 0.1257) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    6
+Degrees of Freedom                    294
+Res. Sum of Squares               1.63019
+Total Sum of Squares              1.86459
+R Squared                        0.125710
+Adjusted R Squared               0.107806
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.80411         0.03       93.411     1.29e-220        2.745       2.8632
+alpha1             0.0104012      0.00234       4.4507      1.22e-05    0.0058019     0.015001
+beta1             -0.0106648      0.00234       -4.562             -    -0.015266   -0.0060639
+beta2             0.00628721      0.00444        1.415             -   -0.0024575     0.015032
+breakpoint1          16.9502         2.15            -             -       12.728       21.173
+breakpoint2          284.799         6.11            -             -       272.77       296.83
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -0.000263609     6.07e-05      -4.3408      1.95e-05  -0.00038313  -0.00014409
+alpha3             0.0060236      0.00444       1.3558         0.176   -0.0027203     0.014768
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.24118e-05 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [17, 285]
+Segment 1: slope=0.00727, stderr=0.00324, p=0.0404 (significant)
+Segment 2: slope=-0.00029, stderr=0.00006, p=1.69e-06 (significant)
+Segment 3: slope=0.00602, stderr=0.00440, p=0.194 (not significant)
+
+CCAL (bkpts=1): No estimates returned.
+CCAL (bkpts=2): No estimates returned.
+CCAL (bkpts=3): No estimates returned.
+--- CCAL (best n_breakpoints = 4, R² = 0.0511) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                   10
+Degrees of Freedom                    290
+Res. Sum of Squares                21.012
+Total Sum of Squares              22.1429
+R Squared                        0.051074
+Adjusted R Squared               0.018239
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.74869       0.0404       68.031     2.62e-180       2.6692       2.8282
+alpha1           0.000419176     0.000399       1.0497         0.295  -0.00036675    0.0012051
+beta1              -0.117784         0.12     -0.97854             -     -0.35469      0.11912
+beta2               0.358556         0.17       2.1064             -     0.023524      0.69359
+beta3              -0.338429        0.147      -2.2957             -     -0.62858    -0.048283
+beta4              0.0980307       0.0851       1.1517             -    -0.069493      0.26555
+breakpoint1          174.898         2.91            -             -       169.16       180.63
+breakpoint2          179.473         1.09            -             -       177.33       181.61
+breakpoint3          183.384         1.08            -             -       181.26       185.51
+breakpoint4          188.704          2.7            -             -       183.39       194.02
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2             -0.117365         0.12     -0.97506          0.33     -0.35427      0.11954
+alpha3               0.24119         0.12       2.0038         0.046    0.0042871      0.47809
+alpha4            -0.0972387       0.0851      -1.1425         0.254     -0.26475     0.070277
+alpha5           0.000791908     0.000797      0.99325         0.321   -0.0007773    0.0023611
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.44026 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [175, 179, 183, 189]
+Segment 1: slope=0.00039, stderr=0.00041, p=0.349 (not significant)
+Segment 2: slope=-0.18011, stderr=0.02512, p=0.0189 (significant)
+Segment 3: slope=0.20336, stderr=0.06325, p=0.0846 (not significant)
+Segment 4: slope=-0.07330, stderr=0.02030, p=0.0225 (significant)
+Segment 5: slope=0.00079, stderr=0.00079, p=0.321 (not significant)
+
+CHIL (bkpts=1): No estimates returned.
+CHIL (bkpts=2): No estimates returned.
+CHIL (bkpts=3): No estimates returned.
+CHIL (bkpts=4): No estimates returned.
+CHIL: No successful regression.
+CHIN (bkpts=2): No estimates returned.
+CHIN (bkpts=3): No estimates returned.
+CHIN (bkpts=4): No estimates returned.
+--- CHIN (best n_breakpoints = 1, R² = 0.0023) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    4
+Degrees of Freedom                    296
+Res. Sum of Squares               5.31126
+Total Sum of Squares              5.32345
+R Squared                        0.002290
+Adjusted R Squared              -0.011238
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                3.08513       0.0411        75.09     9.29e-195       3.0043        3.166
+alpha1            0.00080169      0.00177      0.45343         0.651   -0.0026779    0.0042813
+beta1           -0.000807862      0.00177     -0.45602             -   -0.0042943    0.0026786
+breakpoint1          40.2671         55.4            -             -      -68.665        149.2
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -6.17128e-06     0.000111    -0.055434         0.956  -0.00022526   0.00021292
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.667199 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [40]
+Segment 1: slope=0.00015, stderr=0.00186, p=0.936 (not significant)
+Segment 2: slope=-0.00002, stderr=0.00011, p=0.849 (not significant)
+
+CHSB (bkpts=1): No estimates returned.
+CHSB (bkpts=2): No estimates returned.
+CHSB (bkpts=3): No estimates returned.
+CHSB (bkpts=4): No estimates returned.
+CHSB: No successful regression.
+CNRY (bkpts=1): No estimates returned.
+CNRY (bkpts=2): No estimates returned.
+CNRY (bkpts=3): No estimates returned.
+CNRY (bkpts=4): No estimates returned.
+CNRY: No successful regression.
+EAFR (bkpts=1): No estimates returned.
+EAFR (bkpts=2): No estimates returned.
+EAFR (bkpts=3): No estimates returned.
+EAFR (bkpts=4): No estimates returned.
+EAFR: No successful regression.
+FKLD (bkpts=2): No estimates returned.
+FKLD (bkpts=4): No estimates returned.
+--- FKLD (best n_breakpoints = 3, R² = 0.0353) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    8
+Degrees of Freedom                    292
+Res. Sum of Squares               18.8744
+Total Sum of Squares              19.5645
+R Squared                        0.035270
+Adjusted R Squared               0.008748
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.61923        0.129       20.316      8.26e-58       2.3655        2.873
+alpha1             0.0223022       0.0169       1.3231         0.187    -0.010872     0.055477
+beta1              -0.225708        0.181        -1.25             -     -0.58108      0.12966
+beta2               0.306852        0.213       1.4426             -     -0.11179       0.7255
+beta3              -0.103279        0.114     -0.90835             -     -0.32705       0.1205
+breakpoint1          13.0907         1.75            -             -       9.6432       16.538
+breakpoint2          16.1596         1.27            -             -       13.659        18.66
+breakpoint3           20.559          2.6            -             -        15.45       25.668
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2             -0.203406         0.18      -1.1314         0.259     -0.55723      0.15041
+alpha3              0.103446        0.114      0.90982         0.364     -0.12033      0.32722
+alpha4           0.000166885     0.000189      0.88305         0.378  -0.00020507   0.00053883
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.10846 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [13, 16, 21]
+Segment 1: slope=0.02250, stderr=0.01877, p=0.256 (not significant)
+Segment 2: slope=-0.19445, stderr=0.01184, p=0.0387 (significant)
+Segment 3: slope=0.09288, stderr=0.02784, p=0.0445 (significant)
+Segment 4: slope=0.00017, stderr=0.00019, p=0.381 (not significant)
+
+GUIA (bkpts=3): No estimates returned.
+GUIA (bkpts=4): No estimates returned.
+--- GUIA (best n_breakpoints = 2, R² = 0.1367) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    6
+Degrees of Freedom                    294
+Res. Sum of Squares              0.726458
+Total Sum of Squares             0.841479
+R Squared                        0.136689
+Adjusted R Squared               0.119011
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.99103      0.00842       355.39           0.0       2.9745       3.0076
+alpha1           0.000551335     0.000106       5.1909      3.91e-07    0.0003423   0.00076037
+beta1            -0.00102199     0.000325      -3.1452             -   -0.0016615  -0.00038249
+beta2             0.00088089     0.000361       2.4432             -    0.0001713    0.0015905
+breakpoint1          133.296         15.1            -             -       103.51       163.08
+breakpoint2          204.397         17.9            -             -       169.27       239.53
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -0.000470653     0.000307      -1.5326         0.126    -0.001075   0.00013372
+alpha3           0.000410237     0.000189       2.1713        0.0307   3.8401e-05   0.00078207
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.00272012 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [133, 204]
+Segment 1: slope=0.00056, stderr=0.00013, p=3.34e-05 (significant)
+Segment 2: slope=-0.00040, stderr=0.00024, p=0.0918 (not significant)
+Segment 3: slope=0.00043, stderr=0.00016, p=0.00773 (significant)
+
+GUIN (bkpts=3): No estimates returned.
+GUIN (bkpts=4): No estimates returned.
+--- GUIN (best n_breakpoints = 1, R² = 0.0823) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    4
+Degrees of Freedom                    296
+Res. Sum of Squares              0.628649
+Total Sum of Squares             0.685044
+R Squared                        0.082324
+Adjusted R Squared               0.069880
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.75596       0.0122       226.77           0.0        2.732       2.7799
+alpha1            0.00125769     0.000381        3.301       0.00108   0.00050788    0.0020075
+beta1            -0.00136948     0.000383      -3.5729             -   -0.0021238  -0.00061515
+breakpoint1           54.326         9.73            -             -       35.169       73.483
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -0.000111788     4.19e-05      -2.6689       0.00803  -0.00019422  -2.9358e-05
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.000240759 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [54]
+Segment 1: slope=0.00130, stderr=0.00054, p=0.0208 (significant)
+Segment 2: slope=-0.00011, stderr=0.00004, p=0.00375 (significant)
+
+INDE (bkpts=2): No estimates returned.
+INDE (bkpts=3): No estimates returned.
+INDE (bkpts=4): No estimates returned.
+--- INDE (best n_breakpoints = 1, R² = 0.0101) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    4
+Degrees of Freedom                    296
+Res. Sum of Squares               0.76885
+Total Sum of Squares             0.776659
+R Squared                        0.010054
+Adjusted R Squared              -0.003369
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                3.02901       0.0121       251.29           0.0       3.0053       3.0527
+alpha1           0.000336353     0.000301       1.1157         0.265  -0.00025697   0.00092967
+beta1           -0.000364081     0.000306       -1.191             -  -0.00096571   0.00023754
+breakpoint1          69.0242         37.9            -             -      -5.6602       143.71
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -2.77284e-05     5.06e-05     -0.54783         0.584  -0.00012734   7.1882e-05
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.559857 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [69]
+Segment 1: slope=0.00033, stderr=0.00033, p=0.314 (not significant)
+Segment 2: slope=-0.00003, stderr=0.00005, p=0.569 (not significant)
+
+INDW (bkpts=3): No estimates returned.
+INDW (bkpts=4): No estimates returned.
+--- INDW (best n_breakpoints = 1, R² = 0.0470) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    4
+Degrees of Freedom                    296
+Res. Sum of Squares              0.987798
+Total Sum of Squares              1.03648
+R Squared                        0.046968
+Adjusted R Squared               0.034046
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                3.12958      0.00798        392.1           0.0       3.1139       3.1453
+alpha1          -0.000218845     6.67e-05      -3.2808       0.00116  -0.00035012  -8.7569e-05
+beta1            0.000640887     0.000236       2.7112             -   0.00017569    0.0011061
+breakpoint1          209.438         22.2            -             -       165.79       253.09
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2           0.000422041     0.000227       1.8611        0.0637  -2.4253e-05   0.00086834
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.0235786 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [209]
+Segment 1: slope=-0.00022, stderr=0.00006, p=0.000333 (significant)
+Segment 2: slope=0.00040, stderr=0.00027, p=0.137 (not significant)
+
+NECS (bkpts=1): No estimates returned.
+NECS (bkpts=2): No estimates returned.
+NECS (bkpts=3): No estimates returned.
+NECS (bkpts=4): No estimates returned.
+NECS: No successful regression.
+NEWZ (bkpts=1): No estimates returned.
+NEWZ (bkpts=2): No estimates returned.
+NEWZ (bkpts=4): No estimates returned.
+--- NEWZ (best n_breakpoints = 3, R² = 0.0193) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    8
+Degrees of Freedom                    292
+Res. Sum of Squares               16.7725
+Total Sum of Squares              17.1025
+R Squared                        0.019293
+Adjusted R Squared              -0.007668
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.73528        0.035       78.195     7.21e-198       2.6664       2.8041
+alpha1           0.000394371     0.000332       1.1863         0.236  -0.00025991    0.0010487
+beta1              0.0719174       0.0449       1.6018             -    -0.016447      0.16028
+beta2              -0.161361       0.0724      -2.2289             -     -0.30384    -0.018882
+beta3              0.0897408       0.0568       1.5801             -     -0.02204      0.20152
+breakpoint1          187.901          1.8            -             -       184.37       191.44
+breakpoint2           191.01          1.7            -             -       187.66       194.36
+breakpoint3          194.094         1.57            -             -        191.0       197.19
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2             0.0723118       0.0449       1.6106         0.108     -0.01605      0.16067
+alpha3            -0.0890497       0.0568       -1.568         0.118     -0.20082     0.022721
+alpha4           0.000691104     0.000776      0.89061         0.374  -0.00083613    0.0022183
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=1.42892 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [188, 191, 194]
+Segment 1: slope=0.00018, stderr=0.00033, p=0.587 (not significant)
+Segment 2: slope=0.14241, stderr=0.02315, p=0.103 (not significant)
+Segment 3: slope=-0.06379, stderr=0.00275, p=0.0274 (significant)
+Segment 4: slope=0.00071, stderr=0.00074, p=0.342 (not significant)
+
+NWCS (bkpts=1): No estimates returned.
+NWCS (bkpts=2): No estimates returned.
+NWCS (bkpts=3): No estimates returned.
+NWCS (bkpts=4): No estimates returned.
+NWCS: No successful regression.
+REDS (bkpts=3): No estimates returned.
+REDS (bkpts=4): No estimates returned.
+--- REDS (best n_breakpoints = 2, R² = 0.0362) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    6
+Degrees of Freedom                    294
+Res. Sum of Squares               2.89992
+Total Sum of Squares              3.00898
+R Squared                        0.036242
+Adjusted R Squared               0.016507
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                2.92934       0.0235       124.73      1.3e-256       2.8831       2.9756
+alpha1            0.00126146     0.000587       2.1474        0.0326   0.00010535    0.0024176
+beta1             -0.0016122      0.00063      -2.5602             -   -0.0028515  -0.00037289
+beta2            0.000639619     0.000421       1.5195             -  -0.00018884    0.0014681
+breakpoint1          73.2875         19.0            -             -       35.982       110.59
+breakpoint2          197.844         42.1            -             -       115.05       280.63
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2          -0.000350739     0.000227      -1.5462         0.123  -0.00079717    9.569e-05
+alpha3            0.00028888     0.000355      0.81465         0.416  -0.00040901   0.00098677
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=0.142351 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [73, 198]
+Segment 1: slope=0.00141, stderr=0.00054, p=0.0107 (significant)
+Segment 2: slope=-0.00036, stderr=0.00026, p=0.164 (not significant)
+Segment 3: slope=0.00021, stderr=0.00032, p=0.512 (not significant)
+
+SUND (bkpts=4): No estimates returned.
+--- SUND (best n_breakpoints = 3, R² = 0.2395) ---
+
+                    Breakpoint Regression Results                     
+====================================================================================================
+No. Observations                      300
+No. Model Parameters                    8
+Degrees of Freedom                    292
+Res. Sum of Squares              0.171203
+Total Sum of Squares             0.225111
+R Squared                        0.239472
+Adjusted R Squared               0.218564
+Converged:                           True
+====================================================================================================
+====================================================================================================
+                    Estimate      Std Err            t        P>|t|       [0.025       0.975]
+----------------------------------------------------------------------------------------------------
+const                3.01229       0.0127       237.32           0.0       2.9873       3.0373
+alpha1           -0.00332773       0.0018      -1.8538        0.0648   -0.0068607   0.00020521
+beta1             0.00456627      0.00181       2.5281             -    0.0010114    0.0081211
+beta2            -0.00151772     0.000214      -7.0768             -   -0.0019398   -0.0010956
+beta3            0.000376907     9.75e-05       3.8644             -   0.00018495   0.00056887
+breakpoint1          12.0168         3.13            -             -       5.8492       18.184
+breakpoint2          66.7657         5.16            -             -       56.608       76.924
+breakpoint3          180.922         17.3            -             -       146.91       214.93
+----------------------------------------------------------------------------------------------------
+These alphas(gradients of segments) are estimatedfrom betas(change in gradient)
+----------------------------------------------------------------------------------------------------
+alpha2            0.00123854       0.0002        6.186      2.08e-09   0.00084449    0.0016326
+alpha3          -0.000279184     7.69e-05      -3.6318      0.000332  -0.00043048  -0.00012789
+alpha4           9.77231e-05        6e-05       1.6279         0.105  -2.0421e-05   0.00021587
+====================================================================================================
+Davies test for existence of at least 1 breakpoint: p=4.00129e-11 (e.g. p<0.05 means reject null hypothesis of no breakpoints at 5% significance)
+
+
+
+Breakpoints at indices: [12, 67, 181]
+Segment 1: slope=-0.00323, stderr=0.00157, p=0.0673 (not significant)
+Segment 2: slope=0.00122, stderr=0.00023, p=2.13e-06 (significant)
+Segment 3: slope=-0.00030, stderr=0.00007, p=1.54e-05 (significant)
+Segment 4: slope=0.00009, stderr=0.00006, p=0.167 (not significant)
+
